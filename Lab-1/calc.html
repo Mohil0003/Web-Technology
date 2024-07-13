@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <script>
+        a = prompt("Enter First number");
+        b = prompt("Enter second number");
+        c = prompt("Enter 1 For Addition<br>Enter 2 For subtraction<br>Enter 3 for multiply<br>Enter 4 for division");
+        if (c == 1) {
+            document.write(a + b);
+        } else if (c == 2) {
+            document.write(a - b);
+        } else if (c == 3) {
+            document.write(a * b);
+        } else if (c == 4 && b == 0) {
+            document.write("secomd value must be non - zero");
+        } else if (c == 4) {
+            document.write(a / b);
+        }
+    </script>
+</body>
+
+</html>
